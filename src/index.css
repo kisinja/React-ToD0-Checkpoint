@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input {
+  margin: 5px;
+  padding: 10px 20px;
+}
+
+button {
+  margin: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.tasks {
+  display: flex;
+  gap: 30px;
+}
+
+.task {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: #969696;
+  padding: 20px;
+  border-radius: 5px;
+  width: 365px;
+  text-align: left;
+  margin: 20px auto;
+}
+
+#action-btn {
+  background: #000;
+  border: none;
+
+  transition: background .1s ease-in;
+}
+
+#action-btn:hover {
+  background: #fff;
+}
+
+#add-btn {
+  background: #0f0;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+}
